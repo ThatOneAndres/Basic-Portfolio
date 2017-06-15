@@ -121,12 +121,17 @@ input[type=submit] {
 }
 
 .overlay{
-	height: 50px;
+	height: 25px;
 	width: 100%;
 	position: absolute;
 	z-index: 1;
 	background-color:#4aaaa5; 
 	bottom: 20px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	
 }
 
 .footer_note{
