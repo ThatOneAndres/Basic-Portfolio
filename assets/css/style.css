@@ -1,7 +1,12 @@
+html{
+	position:relative;
+	min-height: 100%;
+}
 body{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
-	background-color: #dddddd;
+	background-image: url("../images/concrete-texture.png");
+	background-repeat: repeat;
 	margin: 0;
 }
 h1{
@@ -141,8 +146,10 @@ input[type=submit] {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	color:#fff;
 	width: 100%;
 	z-index: 2;
 }
