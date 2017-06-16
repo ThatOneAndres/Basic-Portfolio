@@ -102,12 +102,13 @@ a{
 #connect{
 	text-align: center;
 }
-input[type=submit] {
+button[type=submit] {
 	margin-top: 10px;
 	background: #4aaaa5;
 	color: #fff;
 	width: 16%;
 	height: 42px;
+	border: none;
 	font-size: 1em;	 
 }
 .left{

@@ -20,13 +20,15 @@
 			<div class = "margin">
 				<section aria-label = "Enter Contact Info" class = "main_content">
 					<h1 class = "mid-section-title"> Contact </h1>
-					<p> Name </p>
-					<input type="text" placeholder="John Smith" name = "FullName">
-					<p> Email </p>
-					<input type="text" placeholder="example@gmail.com" name = "Email">
-					<p> Message</p>
-					<textarea name="Message" style = "height: 300px; width: 100%; resize: none;"></textarea>
-					<input type="submit" name="Submit">
+					<form action="mailto:youraddr@domain.tld" method="GET">
+						<p> Name </p>
+						<input type="text" placeholder="John Smith" name = "FullName">
+						<p> Email </p>
+						<input type="text" placeholder="example@gmail.com" name = "Email">
+						<p> Message</p>
+						<textarea name="Message" style = "height: 300px; width: 100%; resize: none;"></textarea>
+						<button type="submit" name="Submit"> Submit </button>
+					</form>
 				</section>
 				<section aria-label = "Connect with Me" class = "social_links">
 				<h2 class = "mid-section-title" id = "connect">Connect with Me</h2>
